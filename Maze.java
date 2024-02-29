@@ -1,18 +1,17 @@
 import java.util.*;
 import java.io.*;
+
 public class Maze{
   private char[][]maze;
   private boolean animate;
-  private int startRow,startCol;
+  private int startRow, startCol;
 
-
-  
   /**Constructor
 
-  1. load maze text file,
-  2. sets animate to false by default.
+  1. Load maze text file,
+  2. Sets animate to false by default.
   3. Set startRow and startCol based on the position of the 'S' in the maze file.
-  When the file is not found then:   throw a FileNotFoundException
+  When the file is not found then: throw a FileNotFoundException
 
   You may assume the file contains a rectangular ascii maze, made with the following 4 characters:
   '#' - Walls - locations that cannot be moved onto
@@ -21,7 +20,7 @@ public class Maze{
   'S' - the location of the start(exactly 1 per file)
   -Make sure your file reading is able to handle this: maze files can have blank
   newlines at the end of the file because some text editors include a newline
-  at the end of a file, but that MAY not be present.
+  at the end of a file, but that may not be present.
 
   */
   public Maze(String filename) throws FileNotFoundException{
@@ -29,7 +28,7 @@ public class Maze{
   }
 
   /**toString
-  *@return the string that represents the maze.
+  *@Return the string that represents the maze.
   *It should look like the text file with some characters potentially replaced.
   */
   public String toString(){
@@ -62,14 +61,16 @@ public class Maze{
 
 
   /*
-   *This will be explained later.
+   * Second part of this lab:
+   * We will go over this method after you write the solve
    */
   public static void carveMaze(char[][] maze, int row, int col) {
   }
   
 
   /*
-   *Do Not Modify below this comment
+   * The following code will be used for animation.
+   * Please do not change anything.
    */
 
 
