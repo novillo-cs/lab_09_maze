@@ -1,1 +1,7 @@
-# lab_09_maze
+# LAB 09: Maze
+
+**Name:**
+
+**Period:**
+
+**Email:**
