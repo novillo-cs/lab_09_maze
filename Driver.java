@@ -15,7 +15,7 @@ public class Driver{
       m = new Maze(filename);
       //f.setAnimate(true);
       System.out.println("Number of steps from S to E: " + m.solve());
-      System.out.println(m)
+      System.out.println(m);
     }catch(FileNotFoundException e){
       System.out.println("File not found: " + filename);
     }
