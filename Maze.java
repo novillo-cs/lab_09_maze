@@ -29,7 +29,8 @@ public class Maze{
 
   /**toString
   *@Return the string that represents the maze.
-  *It should look like the text file with some characters potentially replaced.
+  *It should look like the text file, 
+  *some characters will be replaced when you solve the maze
   */
   public String toString(){
     return "";
